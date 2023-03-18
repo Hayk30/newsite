@@ -9,6 +9,7 @@
     background: url('../img/main_bg.jpg') center center/cover no-repeat;
 }
 .container{
+    position: relative;
     width: 1140px;
     margin: 0 auto;
 }
@@ -144,4 +145,35 @@ h2.title{
     font-size: 15px;
     line-height: 21px;
     color: #4A4A4A;
+}
+.third{
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+.third_header{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-left: 391px;
+}
+.third_text{
+    font-family: 'Roboto - Light';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+    margin-top: 25px;
+    margin-left: 391px;
+}
+.third_text span{
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+.third_img{
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
 }
