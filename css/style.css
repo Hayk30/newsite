@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
 }
+   
 .first{
     height: 800px;
-    padding: 39px 0 62px 0;
+    padding: 38px 0 61px 0;
     background: url('../img/main_bg.jpg') center center/cover no-repeat;
 }
 .container{
@@ -19,20 +20,18 @@
 }
 .logo .logo_text{
     color: #FFFFFF;
-    font-family: 'Roboto';
-    font-weight: 500;
+    font-family: 'Roboto Medium';
     font-size: 15px;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
-    margin-top: 14px;
+    margin-top: 10px;
 }
 h1{
-    margin-top: 53px;
+    margin-top: 41px;
 }
 .title{
-    font-family: 'Roboto';
-    font-weight: 900;
+    font-family: 'Roboto Black';
     font-size: 41px;
     line-height: 41px;
     text-transform: uppercase;
@@ -40,12 +39,12 @@ h1{
     text-align: center;
 }
 h2.title{
-    margin-top: 30px;
+    margin-top: 21px;
 }
 .simple .title_big{
-    font-family: 'Roboto';
-    font-weight: 400;
+    font-family: 'Roboto Black';
     font-size: 80px;
+    line-height: 80px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -55,7 +54,6 @@ h2.title{
     padding: 0 13px;
     margin-top: 23px;
     font-family: 'Roboto Light';
-    font-weight: 300;
     font-size: 21px;
     line-height: 28px;
     color: #FFFFFF;
@@ -72,11 +70,11 @@ h2.title{
     background: linear-gradient(to top, #2798B9 0%, #3AB6DA 100%);
     box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.18);
     display: block;
-    margin: 73px auto;
+    margin: 72px auto 0 auto;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
-    font-family: 'Roboto Condensed';
+    font-family: 'Roboto Condensed Light';
     font-size: 21px;
-    font-weight: 400;
+    line-height: 24px;
     text-transform: uppercase;
     color: #FFFFFF;
     border: none;
@@ -84,11 +82,10 @@ h2.title{
     outline: none;
 }
 .more{
-    margin-top: 73px;
+    margin-top: 70px;
 }
 .more .more_text{
-    font-family: 'Roboto - Thin';
-    font-weight: 400;
+    font-family: 'Roboto Thin';
     font-size: 15px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -96,14 +93,14 @@ h2.title{
 }
 .more .more_img{
     display: block;
-    margin: 13px auto 0 auto;
+    margin: 5px auto 0 auto;
 }
 .second{
     min-height: 604px;
     background-color: #efefef;
     padding: 85px 0 75px 0;
 }
-.second_header{
+.second .second_header, .fore .fore_header{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px;
@@ -111,13 +108,16 @@ h2.title{
     text-transform: uppercase;
     color: #252525;
 }
-.second_divider{
+.fore .fore_header{
+    color: #EFEFEF;
+}
+.second .second_divider, .fore .fore_divider{
     width: 220px;
     height: 7px;
     margin: 18px auto 0 auto;
     background: #F9BF3B;
 }
-.second_subheader{
+.second .second_subheader{
     font-family: 'Roboto';
     margin-top: 17px;
     font-weight: 400;
@@ -176,4 +176,36 @@ h2.title{
     top: -54px;
     left: -240px;
     z-index: -1;
+}
+.fore{
+    background: url('../img/second_bg.jpg') center center/cover no-repeat;
+    padding: 86px 0 79px 0;
+    min-height: 447px;
+}
+.fore .fore_wrapper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+.fore .fore_wrapper .fwrapper_item{
+    width: 204px;
+}
+.fore .fore_wrapper .fwrapper_item .fwrapper_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+.fore .fore_wrapper .fwrapper_item .fwrapper_desc{
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+    text-align: center;
 }
